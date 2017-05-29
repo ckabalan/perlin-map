@@ -243,4 +243,4 @@ _Pvt_Extensions
 *.sln.iml
 
 # Custom
-PerlinMap.sln.ide/
+PerlinMap.sln.ide/*
