@@ -1,0 +1,16 @@
+﻿<Window
+	x:Class="PerlinMap.MainWindow"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="MainWindow" Height="649.848" Width="884.603">
+	<Grid>
+		<Border BorderThickness="1"
+			BorderBrush="#FF000000"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Top"
+			Margin="10,10,0,0">
+			<Image x:Name="PerlinMapImage" HorizontalAlignment="Left" Height="600" VerticalAlignment="Top" Width="600" />
+		</Border>
+		<Button x:Name="GenerateBtn" Content="Generate" HorizontalAlignment="Left" Margin="617,10,0,0" VerticalAlignment="Top" Width="250" Click="GenerateBtn_Click"/>
+	</Grid>
+</Window>
